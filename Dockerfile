@@ -1,6 +1,6 @@
-FROM elasticsearch:1.7.0
+FROM elasticsearch:1.3
 
-RUN plugin install elasticsearch/elasticsearch-cloud-aws/2.7.0
+RUN plugin install elasticsearch/elasticsearch-cloud-aws/2.3.0
 RUN plugin install lmenezes/elasticsearch-kopf/master
 
 COPY config /usr/share/elasticsearch/config
