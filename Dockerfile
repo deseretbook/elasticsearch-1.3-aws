@@ -8,3 +8,4 @@ COPY config /usr/share/elasticsearch/config
 EXPOSE 9200 9300
 
 CMD ["elasticsearch"]
+
