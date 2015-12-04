@@ -22,6 +22,8 @@ discovery.zen.ping.multicast.enabled: false
 
 network.publish_host: _ec2:privateIp_
 
+script.disable_dynamic: ${ES_DISABLE_DYNAMIC}
+
 # ES_HEAP_SIZE 
 #   set as an ENV
 #   based on 8gb ram instance
